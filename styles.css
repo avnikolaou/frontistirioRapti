@@ -68,7 +68,11 @@ section {
     text-align: center;
 }
 
-
+.section-text {
+    column-count: 2;
+    margin: 50px 200px 50px 200px;
+    font-size: 1.3em;
+}
 
 .footer-text {
     text-align: center;
