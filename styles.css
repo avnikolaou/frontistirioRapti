@@ -1,10 +1,11 @@
 header {
     height: 100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
-    position: absolute;
-    width: 100%;
+    margin: auto;
 }
 
 .logo-image {
@@ -44,5 +45,5 @@ nav {
 }
 
 .main-content-container {
-    
+
 }
