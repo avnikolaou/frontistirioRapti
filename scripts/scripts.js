@@ -1,13 +1,17 @@
 // When the user clicks on a section, page scrolls down
-function scrollToDiv() {
+function scrollToDiv(e) {
+
+    if(!e) {
+        e = window.event;
+    }
 
     let section = "section";
-    let id = this.event.target.id;
+    let id = e.target.id || e.srcElement;
     let destination = section.concat(id);
 
-    let e = document.getElementById(destination);
-    if (!!e && e.scrollIntoView) {
-        e.scrollIntoView();
+    let elem = document.getElementById(destination);
+    if (!!elem && elem.scrollIntoView) {
+        elem.scrollIntoView();
     }
 }
 
