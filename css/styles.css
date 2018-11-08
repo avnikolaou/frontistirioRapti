@@ -34,6 +34,11 @@ header {
     font-size: 2em;
 }
 
+.nav-li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .ul-container {
     float: right;
 }
@@ -78,7 +83,7 @@ section {
 
 .section-text {
     column-count: 2;
-    margin: 100px 200px 100px 200px;
+    margin: 150px 200px 150px 200px;
     font-size: 1.3em;
 }
 
