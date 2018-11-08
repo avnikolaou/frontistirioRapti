@@ -64,6 +64,10 @@ main {
     width: 100%;
 }
 
+section {
+    text-align: center;
+}
+
 
 
 .footer-text {
