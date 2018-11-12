@@ -1,5 +1,5 @@
 header {
-    min-height: 150px;
+    min-height: 130px;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
@@ -28,7 +28,6 @@ header {
 
 .header-container {
     display: flex;
-    padding-top: 20px;
 }
 
 .nav-ul {
@@ -56,7 +55,7 @@ nav {
 }
 
 main {
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .main-content-container {
