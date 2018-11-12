@@ -32,6 +32,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+// Slide show functionality
 let slideIndex = 1;
 showSlides(slideIndex);
 
