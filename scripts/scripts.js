@@ -6,7 +6,7 @@ function scrollToDiv(e) {
     }
 
     let section = "section";
-    let id = e.target.id || e.srcElement;
+    let id = e.target.id;
     let destination = section.concat(id);
 
     let elem = document.getElementById(destination);
