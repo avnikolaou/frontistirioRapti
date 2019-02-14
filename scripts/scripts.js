@@ -11,7 +11,7 @@ function scrollToDiv(e) {
 
     let elem = document.getElementById(destination);
     if (!!elem && elem.scrollIntoView) {
-        elem.scrollIntoView();
+        elem.scrollIntoView({behavior: "smooth"});
     }
 }
 
@@ -28,8 +28,8 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    let element = document.getElementById("topScroll");
+    element.scrollIntoView({behavior: "smooth"});
 }
 
 // Slide show functionality
