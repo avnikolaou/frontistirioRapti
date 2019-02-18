@@ -14,7 +14,9 @@ header {
     top: 0;
     z-index: 99;
     width: 100%;
-    box-shadow: 10px 0 50px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 10px 5px 15px -6px black;
 }
 
 .header-div {
