@@ -90,10 +90,12 @@ main {
 .mySlides {
     display: none;
     width: auto;
+    height: 800px;
 }
 
 /* Slideshow container */
 .slideshow-container {
+    padding-top: 50px;
     max-width: 1400px;
     position: relative;
     margin: auto;
