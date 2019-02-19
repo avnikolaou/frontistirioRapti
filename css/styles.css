@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    min-height: 130px;
+    min-height: 120px;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
