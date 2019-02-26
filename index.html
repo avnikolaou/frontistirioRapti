@@ -93,62 +93,71 @@
 
                 <hr>
 
-                <section>
-                    <h2 class="section-h2" id="section3">Βρισκόμαστε</h2>
+                <section class="bot-section">
+                    <div class="information">
+                        <h2 class="section-h2" id="section3">Βρισκόμαστε</h2>
 
-                    <div class="info-container">
-                        <div class="icon-container">
-                            <i class="fas fa-home"></i>
+                        <div class="info-container">
+                            <div class="icon-container">
+                                <i class="fas fa-home"></i>
+                            </div>
+
+                            <div class="text-container">
+                                <p class="section-text nomargin">Φιλίππου 1, Κονταριώτισσα Πιερίας</p>
+                            </div>
+
+                        </div>
+
+                        <div class="info-container">
+                            <div class="icon-container">
+                                <i class="fas fa-phone"></i>
+                            </div>
+
+                            <div class="text-container">
+                                <p class="section-text nomargin">23510-51054</p>
+                            </div>
+
+                        </div>
+
+                        <div class="info-container">
+                            <div class="icon-container">
+                                <i class="fas fa-mobile"></i>
+                            </div>
+
+                            <div class="text-container">
+                                <p class="section-text nomargin">6976461591</p>
+                            </div>
+
+                        </div>
+
+                        <div class="info-container">
+                            <div class="icon-container">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+
+                            <div class="text-container">
+                                <p class="section-text nomargin">raptidi@gmail.com.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="info-container">
+                            <div class="icon-container">
+                                <a class="section-text nomargin" href="https://www.facebook.com/profile.php?id=100026849081685" target="_blank">
+                                    <img alt="facebook-logo" src="images/facebook.png">
+                                </a>
+                            </div>
                         </div>
 
                         <div class="text-container">
-                            <p class="section-text nomargin">Φιλίππου 1, Κονταριώτισσα Πιερίας</p>
-                        </div>
 
-                    </div>
-
-                    <div class="info-container">
-                        <div class="icon-container">
-                            <i class="fas fa-phone"></i>
-                        </div>
-
-                        <div class="text-container">
-                            <p class="section-text nomargin">23510-51054</p>
-                        </div>
-
-                    </div>
-
-                    <div class="info-container">
-                        <div class="icon-container">
-                            <i class="fas fa-mobile"></i>
-                        </div>
-
-                        <div class="text-container">
-                            <p class="section-text nomargin">6976461591</p>
-                        </div>
-
-                    </div>
-
-                    <div class="info-container">
-                        <div class="icon-container">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-
-                        <div class="text-container">
-                            <p class="section-text nomargin">raptidi@gmail.com.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="info-container">
-                        <div class="icon-container">
-                            <a class="section-text nomargin" href="https://www.facebook.com/profile.php?id=100026849081685" target="_blank">
-                                <img alt="facebook-logo" src="images/facebook.png">
-                            </a>
                         </div>
                     </div>
 
-                    <div class="text-container">
+                    <div class="map-container">
+                        <div id="map">
+
+                        </div>
 
                     </div>
 
@@ -164,7 +173,23 @@
             </p>
         </footer>
 
+        <script>
+            function initMap() {
+                // The location of Uluru
+                let position = {lat: 40.228207, lng: 22.466345};
+                // The map, centered at Uluru
+                let map = new google.maps.Map(document.getElementById('map'), {zoom: 16, center: position});
+                // The marker, positioned at Uluru
+                let marker = new google.maps.Marker({position: position, map: map});
+            }
+        </script>
+
         <script src="scripts/scripts.js"></script>
+
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCblJ5LkVzqmvkQwiSvDhjAzexX_YNGVvg&callback=initMap" type="text/javascript">
+        </script>
+
 
     </body>
 

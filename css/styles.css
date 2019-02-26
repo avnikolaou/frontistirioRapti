@@ -239,6 +239,26 @@ hr {
     width: 80%;
 }
 
+.information {
+    width: 50%;
+}
+
+.map-container {
+    margin-top: 100px;
+    width: 50%;
+    height: 500px;
+    background-color: gray;
+}
+
+#map {
+    height: 100%;
+}
+
+.bot-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #myBtn {
     display: none;
     position: fixed;
