@@ -175,10 +175,19 @@
 
         <script>
             function initMap() {
+                let myStyles =[
+                    {
+                        featureType: "poi",
+                        elementType: "labels",
+                        stylers: [
+                            { visibility: "off" }
+                        ]
+                    }
+                ];
                 // The location of Uluru
-                let position = {lat: 40.228207, lng: 22.466345};
+                let position = {lat: 40.225681, lng: 22.462142};
                 // The map, centered at Uluru
-                let map = new google.maps.Map(document.getElementById('map'), {zoom: 16, center: position});
+                let map = new google.maps.Map(document.getElementById('map'), {zoom: 18, center: position, styles: myStyles});
                 // The marker, positioned at Uluru
                 let marker = new google.maps.Marker({position: position, map: map});
             }
