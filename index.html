@@ -15,59 +15,61 @@
         <div id="topScroll"></div>
         <header class="header-scrolled" id="header">
             <div id="header-div" class="header-div">
-                <nav>
-                    <div class="header-container">
-                        <div class="logo-container">
-                            <a class="logo" href="http://www.frontistiriorapti.gr">
-                                <img  class="logo-image" src="images/logo2.jpg">
-                            </a>
-                        </div>
-
-                        <div class="ul-container">
-                            <ul class="nav-ul">
-                                <li class="nav-li" id="1" onclick="scrollToDiv(event)">Λίγα Λόγια Για Εμάς</li>
-                                <li class="nav-li-bar">|</li>
-                                <li class="nav-li" id="2" onclick="scrollToDiv(event)">Στόχος Μας</li>
-                                <li class="nav-li-bar">|</li>
-                                <li class="nav-li" id="3" onclick="scrollToDiv(event)">Βρισκόμαστε</li>
-                            </ul>
-                        </div>
-
+                <div class="header-container">
+                    <div class="logo-container">
+                        <a class="logo" href="http://www.frontistiriorapti.gr">
+                            <img  class="logo-image" src="images/logo2.jpg">
+                        </a>
                     </div>
 
-                </nav>
+                    <div class="ul-container">
+                        <ul class="nav-ul">
+                            <li class="nav-li" id="4"><a href="http://localhost/articles/">Νέα - Ανακοινώσεις</a></li>
+                            <li class="nav-li-bar">|</li>
+                            <li class="nav-li" id="1" onclick="scrollToDiv(event)">Λίγα Λόγια Για Εμάς</li>
+                            <li class="nav-li-bar">|</li>
+                            <li class="nav-li" id="2" onclick="scrollToDiv(event)">Στόχος Μας</li>
+                            <li class="nav-li-bar">|</li>
+                            <li class="nav-li" id="3" onclick="scrollToDiv(event)">Βρισκόμαστε</li>
+                        </ul>
+                    </div>
+
+                </div>
+
             </div>
         </header>
 
         <main>
-            <div class="main-content-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
-                <h1 class="main-h1">Φροντιστήριο Μέσης Εκπαίδευσης Ράπτη Δήμητρα</h1>
-            </div>
-
-            <div class="slideshow-container" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
-
-                <div class="mySlides fade">
-                    <img class="main-image" alt="Front face of building." src="images/frontface.jpg">
+            <div>
+                <div class="main-content-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
+                    <h1 class="main-h1">Φροντιστήριο Μέσης Εκπαίδευσης Ράπτη Δήμητρα</h1>
                 </div>
 
-                <div class="mySlides fade">
-                    <img class="main-image" alt="Classroom #1" src="images/classroom1.jpg">
+                <div class="slideshow-container" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
+
+                    <div class="mySlides fade">
+                        <img class="main-image" alt="Front face of building." src="images/frontface.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img class="main-image" alt="Classroom #1" src="images/classroom1.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img class="main-image" alt="Classroom #2" src="images/classroom2.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
                 </div>
+                <br>
 
-                <div class="mySlides fade">
-                    <img class="main-image" alt="Classroom #2" src="images/classroom2.jpg">
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
                 </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-            </div>
-            <br>
-
-            <div class="dots" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
             </div>
 
             <div>
