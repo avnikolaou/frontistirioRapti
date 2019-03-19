@@ -13,36 +13,31 @@
 
     <body>
         <div id="topScroll"></div>
-        <header class="header-scrolled" id="header">
-            <div id="header-div" class="header-div">
-                <div class="header-container">
-                    <div class="logo-container">
-                        <a class="logo" href="http://www.frontistiriorapti.gr">
-                            <img  class="logo-image" src="images/logo2.jpg">
-                        </a>
-                    </div>
-
-                    <div class="ul-container">
-                        <ul class="nav-ul">
-                            <li class="nav-li" id="1" onclick="scrollToDiv(event)">Λίγα Λόγια Για Εμάς</li>
-                            <li class="nav-li-bar">|</li>
-                            <li class="nav-li" id="2" onclick="scrollToDiv(event)">Στόχος Μας</li>
-                            <li class="nav-li-bar">|</li>
-                            <li class="nav-li" id="3" onclick="scrollToDiv(event)">Βρισκόμαστε</li>
-                            <li class="nav-li-bar">|</li>
-                            <li class="nav-li" id="4"><a href="http://localhost/articles/">Νέα - Ανακοινώσεις</a></li>
-                            <li class="nav-li-bar">|</li>
-                            <li class="nav-li" id="5"><a href="http://localhost:63343/frontistirio/media.html">Εκδηλώσεις - Φωτογραφίες</a></li>
-                        </ul>
-                    </div>
-
+        <header class="header-scrolled">
+            <div class="header-container">
+                <div class="logo-container">
+                    <a class="logo" href="http://www.frontistiriorapti.gr">
+                        <img  class="logo-image" src="images/logo2.jpg">
+                    </a>
                 </div>
 
             </div>
+
+            <div class="nav">
+                <label for="toggle">&#9776</label>
+                <input type="checkbox" id="toggle">
+                <div class="menu">
+                    <a href="javascript:void(0);">Λίγα Λόγια Για Εμάς</a>
+                    <a href="javascript:void(0);">Στόχος Μας</a>
+                    <a href="javascript:void(0);">Βρισκόμαστε</a>
+                    <a href="http://localhost/articles/">Νέα - Ανακοινώσεις</a>
+                    <a href="http://localhost:63343/frontistirio/media.html">Εκδηλώσεις - Φωτογραφίες</a>
+                </div>
+            </div>
+
         </header>
 
         <main>
-
             <div class="main-image">
                 <img src="images/studying.jpg">
             </div>
