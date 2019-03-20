@@ -36,6 +36,7 @@ header {
     text-align: center;
     width: 100%;
     height: auto;
+    margin: 10px 10px 10px 15px;
 }
 
 .header-container {
@@ -87,7 +88,7 @@ label {
 }
 
 main {
-    padding-top: 120px;
+    padding-top: 135px;
 }
 
 .main-content-container {
