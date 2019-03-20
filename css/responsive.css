@@ -111,6 +111,10 @@
     .main-image img {
         height: auto;
     }
+
+    .menu a {
+        font-size: 1.4em;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -144,7 +148,7 @@
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 910px) {
     .logo-image {
         width: 220px;
         height: 60px;

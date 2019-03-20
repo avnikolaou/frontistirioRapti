@@ -41,7 +41,6 @@ header {
 .header-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     height: auto;
 }
 
@@ -88,7 +87,7 @@ label {
 }
 
 main {
-    padding-top: 180px;
+    padding-top: 120px;
 }
 
 .main-content-container {
