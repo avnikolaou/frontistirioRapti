@@ -13,6 +13,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     background-color: white;
+    opacity: 0.97;
 }
 
 .header-scrolled {
@@ -87,7 +88,7 @@ label {
 }
 
 main {
-    padding-top: 190px;
+    padding-top: 180px;
 }
 
 .main-content-container {

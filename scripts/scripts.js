@@ -11,7 +11,7 @@ function scrollToDiv(e) {
 
     let elem = document.getElementById(destination);
     if (!!elem && elem.scrollIntoView) {
-        elem.scrollIntoView({behavior: "smooth"});
+        elem.scrollIntoView({behavior: "smooth", block: "center"});
     }
 }
 
