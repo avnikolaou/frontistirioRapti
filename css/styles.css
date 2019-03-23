@@ -253,6 +253,10 @@ section i {
     font-size: 2.2em;
 }
 
+.mail {
+    text-decoration: none;
+}
+
 .nomargin {
     margin: 0;
 }
