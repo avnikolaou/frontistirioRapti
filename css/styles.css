@@ -9,22 +9,22 @@ html {
 }
 
 header {
+    position: fixed;
     min-height: 120px;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
     opacity: 0.97;
-}
-
-.header-scrolled {
     margin: auto;
-    position: fixed;
     top: 0;
     z-index: 99;
     width: 100%;
     -webkit-box-shadow: 10px 5px 15px -6px black;
     -moz-box-shadow: 10px 5px 15px -6px black;
     box-shadow: 0 5px 20px -5px black;
+    -webkit-transition: all 2000ms ease;
+    transition: all 2000ms ease;
+
 }
 
 .logo-image {
@@ -57,13 +57,12 @@ header {
 }
 
 .menu a {
-    font-family: cursive;
     clear: right;
     text-decoration: none;
     color: black;
     margin: 0 20px;
     line-height: 70px;
-    font-size: 1.6em;
+    font-size: 1.7em;
 }
 
 .menu a:hover {

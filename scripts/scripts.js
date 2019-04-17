@@ -15,9 +15,7 @@ function scrollToDiv(e) {
     }
 }
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
+// When the user scrolls down 500px from the top of the document, show the button
 function scrollFunction() {
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         document.getElementById("myBtn").style.display = "block";
@@ -68,4 +66,7 @@ function showSlides(n) {
     }
 }
 
-
+window.onscroll = function() {
+    // fixedTop();
+    scrollFunction();
+};
